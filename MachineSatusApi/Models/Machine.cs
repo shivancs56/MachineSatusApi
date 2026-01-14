@@ -1,0 +1,11 @@
+﻿namespace MachineStatusApi.Models
+{
+    public class Machine
+    {
+        public int Id { get; set; }
+
+        public string Name { get; set; }
+
+        public bool IsRunning { get; set; }
+    }
+}
